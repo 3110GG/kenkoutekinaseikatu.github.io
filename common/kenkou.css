@@ -1,0 +1,262 @@
+::selection {
+  background-color:  #23DB94;
+}
+
+span {
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #d71e90;
+    text-decoration: none;
+}
+
+a {
+    color: #d71e90;
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.75rem;
+    line-height: 0.5em
+    color: #d71e90;
+    text-decoration: none;
+}
+
+div {
+    color: #d71e90;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 15px;
+}
+
+body {
+    background-color: #011F14;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #011F14;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #011F14;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#slideshow {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+.logo img {
+    width: 75px;
+}
+
+.tabsL {
+    display: flex;
+    align-items: center;
+}
+
+.tabsR {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.news-container {
+    display: block;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.news-item {
+    border-bottom: 1px solid #d71e90;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    border-left: 1px solid #d71e90;
+    border-right: 1px solid #d71e90;
+    width: 300px;
+    height: 169px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #666;
+}
+
+.kenkou_kugiri {
+    border: none;
+    height: 1px;
+    background-color: #d71e90;
+    max-width: 1300px;
+}
+
+.about_container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.about_image {
+    max-width: 150px;
+    height: auto;
+}
+
+.about_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.about_content p {
+    font-size: 1.0rem;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.member-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.member {
+    border-bottom: 1px solid #d71e90;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.member img {
+    max-width: 150px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.member p {
+    margin: 5px 0;
+}
+
+.member strong {
+    font-weight: bold;
+}
+
+.member-info {
+    margin-left: 180px; /* メンバー情報を右に寄せるための余白 */
+}
+
+.member a {
+    text-decoration: none;
+    margin-right: 10px;
+}
